@@ -100,7 +100,7 @@ header {
     height: 500px;
 }
 
-.bannerHeading {
+.commonHeading {
 
     font-size: 30px;
     font-weight: 600;
@@ -150,4 +150,60 @@ header {
     border: none;
     border-radius: 48px;
     background: #4EC5F7;
+}
+
+/* funnyvideos related styles */
+.funnyVideo-content {
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.colorHeading {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-light-gray {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.funnyvideos-img-container {
+    display: flex;
+}
+
+.funnyvideos-img {
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 320px;
+    height: 370px;
+    margin: 8px;
+
+}
+
+.img-description {
+    padding-left: 10px;
+    margin-left: 10px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 150% */
 }
