@@ -1,10 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 /* header related styles */
 header {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     width: 1350px;
     height: 80px;
-    flex-shrink: 0;
+    padding-top: 30px;
+
 }
 
 .logo {
@@ -72,4 +78,76 @@ header {
     background: rgba(11, 2, 35, 0.10);
     padding: 10px;
     border: none;
+}
+
+/* banner related styles */
+.banner {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.banner-content {
+    padding-top: 80px;
+}
+
+.banImg {
+    margin-top: 40px;
+    width: 600px;
+    height: 500px;
+}
+
+.bannerHeading {
+
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.goatHeading {
+
+    padding-bottom: 10px;
+    font-family: Work Sans;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bannerP {
+    padding: 6px;
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.banner-button {
+    display: inline-flex;
+
+    align-items: flex-start;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.signBtn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 48px;
+    background: var(--Linear,
+            linear-gradient(90deg, #FF42A5 13.13%,
+                #FF42A5 87.94%));
+}
+
+.rogueBtn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
 }
