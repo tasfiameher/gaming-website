@@ -207,3 +207,49 @@ header {
     line-height: 20px;
     /* 150% */
 }
+
+/* media query */
+/* mobile devices */
+@media screen and (max-width:576px) {
+
+    .nav,
+    .nav>ul,
+    .funnyvideos-img-container {
+        flex-direction: column;
+        margin: 15px;
+        padding-right: 450px;
+        margin-bottom: 60px;
+    }
+
+    .logo {
+        padding-right: 500px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+
+}
+
+/* tablet devices */
+@media screen and (min-width: 576px) and (min-width:960px) {
+
+    .nav,
+    .nav>ul,
+    .funnyvideos-img-container {
+        flex-direction: column;
+        margin: 15px;
+        padding-right: 450px;
+        margin-bottom: 60px;
+    }
+
+    .logo {
+        padding-right: 500px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+
+    }
+}
