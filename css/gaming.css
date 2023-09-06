@@ -156,8 +156,8 @@ header {
 
 /* funnyvideos related styles */
 .funny-videos-container {
-    width: 80%;
-
+    width: 100%;
+    margin: 2.2rem auto;
     text-align: center;
 }
 
@@ -198,6 +198,13 @@ header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
+}
+
+.funny-video-img img {
+
+    margin: 60px auto;
+    width: 80%;
+    height: 100%;
 }
 
 .funny-video-img {
@@ -420,5 +427,11 @@ footer {
 
     .funny-video-img-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .story-links,
+    .social-links .info-links {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
     }
 }
